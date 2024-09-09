@@ -3,10 +3,10 @@
     "title": "NotOn-DB",
     "author": "dldropper",
     "description": "NotOn-DB - An alternate online database of (useful) 3DS homebrew that is not on Universal-DB",
-    "file": "noton-db.unistore",
+    "file": "sdmc:/3ds/Universal-Updater/stores/noton-db.unistore",
     "url": "https://github.com/NotOn-DB/noton-db.unistore",
-    "sheet": "noton-db.t3x",
-    "sheetURL": "https://github.com/NotOn-DB/noton-db.t3x",
+    "sheet": "sdmc:/3ds/Universal-Updater/stores/noton-db.t3x",
+    "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
     "bg_index": 0,
     "bg_sheet": 0,
     "version": 1,
@@ -182,3 +182,6 @@
             }
          ]
       }
+
+]
+}
