@@ -1,0 +1,184 @@
+{
+"storeInfo": {
+    "title": "NotOn-DB",
+    "author": "dldropper",
+    "description": "NotOn-DB - An alternate online database of (useful) 3DS homebrew that is not on Universal-DB",
+    "file": "noton-db.unistore",
+    "url": "https://github.com/NotOn-DB/noton-db.unistore",
+    "sheet": "noton-db.t3x",
+    "sheetURL": "https://github.com/NotOn-DB/noton-db.t3x",
+    "bg_index": 0,
+    "bg_sheet": 0,
+    "version": 1,
+    "revision": 0,
+      "categories":[
+         "utility",
+         "game",
+         "emulator",
+         "extra",
+         "game - HU"
+      ],
+    "consoles": [
+        "3DS"
+    ],
+    "barDark": "#395472",
+    "barLight": "#395472",
+    "bgDark": "#262c4d",
+    "bgLight": "#60a8c0",
+    "boxDark": "#313131",
+    "boxLight": "#f7f7f7",
+    "outlineDark": "#f00000",
+    "outlineLight": "#f00000",
+    "textDark": "#ffffff",
+    "textLight": "#000000"
+}
+,
+   "storeContent":[
+      {
+         "info":{
+            "author":"PabloMK7",
+            "category":"utility",
+            "console":"3DS",
+            "description":"libcwav is a library for playing (b)cwav files on the 3DS. \nThe goal of this library is to provide an interface for playing (b)cwav files in 3DS homebrew sofware. The way it is designed allows to play these files in non-application environments, such as 3GX game plugins or applets, as it provides support for the CSND system service. Unlike (b)cstm files which are streamed in chunks from their storage media, (b)cwav files are fully loaded into the linear RAM. Therefore, (b)cwav files are only meant for small sound effects. This library provides support for the ADPCM encodings, which heavily reduce the required memory to play the file. ",
+            "icon_index":0,
+            "last_updated":"2021-01-27 at 00:01 (UTC)",
+            "title":"Libcwav 3DS",
+            "version":"1.0"
+         },
+         "Copy 3dsx release":[
+            {
+               "file":"https://dlhb.gamebrew.org/3dshomebrews/libcwav.7z",
+               "message":"Downloading 7z file...",
+               "output":"/3ds/libcwav.7z",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/3ds/libcwav.7z",
+               "input":"",
+               "message":"Extracting 7z file...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/libcwav-1.0.zip",
+               "input":"",
+               "message":"Extracting zip file...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/libcwav.7z",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/3ds/libcwav-1.0.zip",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/3ds/libcwav-1.0-src.zip",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/3ds/GameBrew.url",
+               "type":"deleteFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":"DiscostewSM",
+            "category":"utility",
+            "console":"3DS",
+            "description":"BlargSPC is a homebrew SPC player that is capable to play SNES SPC-dumped files on the 3DS. It is based on the SPC/DSP cores og blargSNES.",
+            "last_updated":"2016-02-26 at 00:01 (UTC)",
+            "title":"BlargSPC 3DS",
+            "version":"0.1"
+         },
+         "Copy 3dsx release":[
+            {
+               "file":"https://dlhb.gamebrew.org/3dshomebrews/blargspc.7z",
+               "message":"Downloading 7z file...",
+               "output":"/3ds/blargspc.7z",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/3ds/blargspc.7z",
+               "input":"",
+               "message":"Extracting 7z file...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/blargspc-0.1.zip",
+               "input":"",
+               "message":"Extracting zip file...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/blargspc.7z",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/3ds/blargspc-0.1.zip",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/3ds/blargspc-0.1-src.zip",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/3ds/GameBrew.url",
+               "type":"deleteFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":"DiscostewSM",
+            "category":"utility",
+            "console":"3DS",
+            "description":"BlargSPC is a homebrew SPC player that is capable to play SNES SPC-dumped files on the 3DS. It is based on the SPC/DSP cores og blargSNES.",
+            "last_updated":"2016-02-26 at 00:01 (UTC)",
+            "title":"BlargSPC 3DS",
+            "version":"0.1"
+         },
+         "Copy 3dsx release":[
+            {
+               "file":"https://dlhb.gamebrew.org/3dshomebrews/blargspc.7z",
+               "message":"Downloading 7z file...",
+               "output":"/3ds/blargspc.7z",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/3ds/blargspc.7z",
+               "input":"",
+               "message":"Extracting 7z file...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/blargspc-0.1.zip",
+               "input":"",
+               "message":"Extracting zip file...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/blargspc.7z",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/3ds/blargspc-0.1.zip",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/3ds/blargspc-0.1-src.zip",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/3ds/GameBrew.url",
+               "type":"deleteFile"
+            }
+         ]
+      }
